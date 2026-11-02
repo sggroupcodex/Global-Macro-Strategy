@@ -1,0 +1,13 @@
+{
+  "name": "shared-r2-bootstrap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Provider-neutral bootstrap client for a private Cloudflare R2 ledger. Contains no operational data.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
